@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+
+}
+
+.title1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title_uslugi {
+    border-left: 3px solid #41F6D7;
+    border-radius: 2px;
+    padding-left: 30px;
+    
+}
+
+.title1_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pink_button{
+    border: none;
+    background: none;
+}
