@@ -46,14 +46,18 @@ body {
 .scroll_buttons {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    /* justify-content: center; */
-    align-items: center;
-    background-color: burlywood;
-    
-    height: 50px;
-    padding: 10px;
+    justify-content: flex-start;
+    box-sizing: border-box;
     overflow-x: auto;
+    width: 100%; 
+    padding: 20px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    flex-shrink: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
     
     
 }
@@ -83,30 +87,40 @@ body {
 
 }
 
+.title1__scroll {
+    display: inline-block;
+    font-size: 16px;
+    
+    height: 40px;
+    color:  #7E7E82 ;
+    border: none;
+    
+}
+
 .scroll-size1 { 
     border: 2px solid #B8FFEC;
     border-radius: 6px;
-    width: 233px;
+   min-width: 233px;
 }
 
 .scroll-size2 { 
     border-radius: 6px;
-    width: 254px;
+   min-width: 254px;
 }
 
 .scroll-size3 { 
     border-radius: 6px;
-    width: 152px;
+    min-width: 152px;
 }
 
 .scroll-size4 { 
     border-radius: 6px;
-    width: 217px;
+   min-width: 217px;
 }
 
 .scroll-size5 { 
     border-radius: 6px;
-    width: 191px;
+   min-width: 191px;
 }
 
 .reviews {
@@ -183,4 +197,82 @@ body {
 
     width: 531.35px;
     height: 307px;
+}
+
+.hair {
+   display: none;
+}
+
+@media(max-width:1119px) {
+.hair {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFF;
+    width: 100%;
+    height: 88px;
+}
+    
+    .burger{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        padding-left: 50px;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 10px;
+        padding-right: 7px;
+       
+    }
+
+    .none {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 7px;
+    }
+
+    .divider {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+
+    }
+
+    .title1_button {
+    display: none;
+    
+}
+
+    .scroll_buttons {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: flex-start;
+    box-sizing: border-box;
+    overflow-x: auto;
+   
+    width: 100%; 
+    padding: 20px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    flex-shrink: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+
 }
