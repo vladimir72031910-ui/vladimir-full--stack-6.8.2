@@ -62,8 +62,8 @@ body {
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
-    padding: 30px;
-    gap: 30px;
+    padding: 20px;
+    gap: 15px;
 }
 
 .title1__scroll {
@@ -107,4 +107,80 @@ body {
 .scroll-size5 { 
     border-radius: 6px;
     width: 191px;
+}
+
+.reviews {
+    padding-left: 70px;
+    padding-top: 10px;
+    width: 95px;
+    height: 40px;
+}
+
+.information__review {
+    border: none;
+    background: none;
+    width: 71px;
+    height: 24px;
+    left: 57px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #7E7E82;
+
+}
+
+.information__loading {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 24px;
+    gap: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+
+
+}
+
+.loading {
+    
+    width: 24px;
+    height: 24px;
+
+}
+
+.information__text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 490px;
+    height: 160px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #1B1C21;
+    gap: 10px;
+    padding-top: 20px;
+    
+    
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1120px;
+    height: 250px;
+    gap: 20px;
+    
+
+}
+
+.fotosize {
+
+    width: 531.35px;
+    height: 307px;
 }
